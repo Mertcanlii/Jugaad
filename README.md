@@ -3,7 +3,7 @@
 
 ## First Try with Arduino Mega 2560 + Raspberry Pi 4
 
-![Layout](https://github.com/T-Z-N/Jugaad/blob/master/Encoder%2CDriver%2CArduino%2CBreadboard.png|alt=octocat)
+![Layout](Jugaad/Encoder,Driver,Arduino,Breadboard.png)
 
 ## Second Try with ESP32 + Raspberry Pi 4
 

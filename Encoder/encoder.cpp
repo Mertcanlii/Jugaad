@@ -35,10 +35,8 @@ void isr() {
         delta = -1;
     else if (new_state == 0b01 && state == 0b00)
         delta = -1;
-
     encoder_ticks += delta;
     state = new_state;
-
 }
 
 int main() {
@@ -62,12 +60,3 @@ int main() {
     }
     return 0;
 }   
-
-
-
-
- //while (true) {
-        //printf("Position: %d\n", encoder_ticks/4);
-        //std::cout << rps << std::endl;
-        //delay(100);
-//}
